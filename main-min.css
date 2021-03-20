@@ -30,6 +30,9 @@ header {
   width: 100%;
   z-index: 5;
 }
+.navbar-light .navbar-nav .nav-link:visited {
+  color: #fff;
+}
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
@@ -88,7 +91,7 @@ header {
   display: inline-block;
 }
 .navbar-light .navbar-toggler {
-  background-color: rgba(216, 216, 216, 0.705);
+  background-color: rgb(255, 255, 255);
 }
 .link-container {
   max-width: 50px;
@@ -180,9 +183,7 @@ th {
 .table__currency-buttons button:hover {
   background-color: #ffc107;
 }
-.card-img-top {
-  min-width: 60%;
-}
+
 .card-title {
   font-size: 15px;
   margin-bottom: 5px;
